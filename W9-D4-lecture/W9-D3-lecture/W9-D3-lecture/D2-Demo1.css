@@ -11,23 +11,25 @@
 
 
 .box-2{
-    /* Code Here */
+    overflow: hidden;
 }
 
 .box-3{
-    /* Code Here */
+    overflow: scroll;
 }
 
 .box-4{
-    /* Code Here */    
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .box-5{
-    /* Code Here */
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .box-6{
-    /* Code Here */
+    overflow: auto;
 }
 
 
@@ -35,7 +37,8 @@
 
 
 .button-1:hover{
-    /* Code Here */
+    background-color: purple;
+    color: white;
 }
 
 .button-2{
@@ -44,9 +47,14 @@
 
 
 .button-2:hover{
-    /* Code Here */
+    width: 150px;
+    height: 100px;
+    background-color: purple;
+    transform: rotate(180deg);
+    /* transition-duration: 3s; */
+    transition: width 2s, height 2s, background-color 2s, transform 4s;
 }
 
 .mchammer-button-div:hover{
-    /* Code here */
+    transform: translateX(250px);
 }

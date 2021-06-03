@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="D2-Demo.css">
+    <title>Day 3</title>
+</head>
+<body>
+    <div class="masthead"> Week 9 Day 4 </div>
+    <div class="bem-container">
+        <div class="bem-container__block">
+            <h2>B: Block</h2>
+            <p> A CSS Class representing a block or a "component" of your website</p>
+        </div>
+        <div class="bem-container__element">
+            <h2>E: Element</h2>
+            <p> A CSS Class representing an element that is a part of your block  </p>
+        </div>
+        <div class="bem-container__modifier">
+            <h2>M: Modifier</h2>
+            <p> A Class Representing the "state" of an element or a block </p>
+        </div>
+    </div>
+    <div class="bem-examples__header">Let's look deeper into BEM</div>
+    <div class="bem-examples" >
+        <div class="bem-examples__left">
+            <div class="bem-examples__description">
+                <h3>Using the image let's label our classes using BEM protocol</h3>
+            </div>  
+            <label id="block-label" for="block">What is our block? What should we name it?</label>      
+            <input type="text" name="block" id="block-input" spellcheck="false">   
+            <label id="block-label" for="element">What is our element? What should we name it?</label>      
+            <input type="text" name="element" id="block-input" spellcheck="false">
+            <label id="block-label" for="modifier">One of these buttons are active, and the other is hoverable how do we add a modifier?</label>      
+            <input type="text" name="modifier" id="block-input" spellcheck="false">  
+        </div>
+        <div class="bem-examples__right">
+            <div class="bem-examples__image">
+                <div class="bem-examples__image-block"> 
+                    <div class="bem-examples__image-buttons">
+                        <button class="active bem-button">I am active</button>
+                        <button class="bem-button">I am not</button>
+                        <button class="bem-examples__image-buttons--hover bem-button">I am hoverable</button>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <div class="overflow-section__header">
+        <h2>Let's have some fun with the overflow property</h2>
+    </div>
+    <div class="overflow-section">
+        <div class="overflow-section__textbox box-1">
+            <h4>No overflow set</h4>
+            <p>Donkey: Let me get this straight. You're gonna go fight a dragon, and rescue a princess just so Farquaad will give you back a swamp, which you only don't have because he filled it full of freaks in the first place. Is that about right?
+                Shrek: You know what? Maybe there's a good reason donkeys shouldn't talk.
+            </p>
+        </div>
+        <div class="overflow-section__textbox box-2">
+        <h4>Overflow set to hidden</h4>
+            <p>Donkey: I don't get it, Shrek. Why don't you just pull some of that ogre stuff on him? Throttle him, lay siege to his fortress, grind his bones to make your bread, the whole ogre trip.
+                Shrek: Oh, I know what. Maybe I could have decapitated an entire village, and put their heads on a pike, gotten a knife, cut open their spleen and drink their fluids. Does that sound good to you?
+            </p>
+        </div>
+        <div class="overflow-section__textbox box-3">
+            <h4>Overflow set to scroll</h4>
+            <p>
+                Donkey: Uh, no, not really, no.
+                Shrek: For your information, there's a lot more to ogres than people think.
+                Donkey: Example?
+                Shrek: Example? Okay, um, ogres are like onions.
+                Donkey: [Sniffs] They stink?
+                Shrek: Yes-- No!
+                Donkey: They make you cry?
+                Shrek: No!
+                Donkey: You leave them out in the sun, they get all brown, start sproutin' little white hairs.
+                Shrek: No! Layers! Onions have layers. Ogres have layers! Onions have layers. You get it? We both have layers.
+            </p>
+        </div>
+        <div class="overflow-section__textbox box-4">
+            <h4>Overflow set to x hidden and y scroll</h4>
+            <p>Donkey: Oh, you both have layers. Oh. [Sniffs] You know, not everybody likes onions. Cakes! Everybody loves cakes! Cakes have layers.
+                Shrek: I don't care what everyone likes. Ogres. Are not. Like cakes.
+                Donkey: You know what else everybody likes? Parfaits. Have you ever met a person, you say, "Hey, let's get some parfait," they say, "Hell no, I don't like no parfait"? Parfaits are delicious.</p>
+        </div>
+        <div class="overflow-section__textbox box-5">
+            <h4>Overflow set to x scroll and y hidden</h4>
+            <p>Shrek: You know, I think preferred your humming.
+                Donkey: Do you have a tissue or something? I'm making a mess. Just the word parfait makes me start slobbering.
+                Shrek: Believe me, Donkey, if it was me, you'd be dead. [Sniffs] It's brimstone. We must be getting close.
+                Donkey: Yeah, right, brimstone. Don't be talking about it's the brimstone. I know what I smell. It wasn't no brimstone. It didn't come off no stone either.
+                </p>
+        </div>
+        <div class="overflow-section__textbox box-6">
+            <h4>Overflow set to autoscroll</h4>
+            <p>
+                Shrek: Sure, it's big enough, but look at the location. [Laughing]
+                Donkey: Shrek? Remember when you said ogres have layers?
+                Shrek: Oh, aye.
+                Donkey: Well, I have a bit of a confession to make. Donkeys don't have layers. We wear our fear right out there on our sleeves.
+                Shrek: Wait a second. Donkeys don't have sleeves.
+                Donkey: You know what I mean.
+                Shrek: You can't tell me you're afraid of heights?
+            </p>
+        </div>
+    </div>
+    <div class="button-section__header">
+        <h2>Let's mess around with some buttons</h2>        
+    </div>
+    <div class="button-section">
+        <div class="button-section__main">
+            <div class="button-section__main-hover">
+                <button class="button-section__main-hover-color button-1">Color change</button>
+            </div>
+            <div class="button-section__main-hover">
+                <button class="button-section__main-hover-shadow button-2">Move me</button>
+            </div>
+        </div>
+    </div>
+    <div class="mchammer-section">
+        <h2>Let's make MC Hammer proud!</h2>
+        <div class="mchammer-section-button-div mchammer-button-div">
+            <button class="mchammer-section__button">Can't touch this</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -42,7 +42,7 @@
 }
 
 .button-2{
-    /* Code Here */
+    transition-duration: 3s;
 }
 
 
@@ -51,7 +51,7 @@
     height: 100px;
     background-color: purple;
     transform: rotate(180deg);
-    /* transition-duration: 3s; */
+
     transition: width 2s, height 2s, background-color 2s, transform 4s;
 }
 
